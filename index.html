@@ -3,179 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Лабораторна робота 3</title>
-    <style>
-        .main_container {
-            width: 100%;
-            height: 100%;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-
-        .right_bar{
-            width: 100%;
-            height: 100%;
-        }
-
-        .Square{
-            width: 100%;
-            height: 100%;
-        }
-
-        .Menu {
-            background-color: lightskyblue;
-            padding: 20px;
-        }
-
-        .TextMenu{
-            width: 100%;
-        }
-
-        .links {
-            text-align: right;
-        }
-
-        .Achievements {
-            background-color: lightgreen;
-            width: 20%;
-            vertical-align: center;
-            padding: 10px;
-        }
-
-        .Portrait {
-            width: 100%;
-            text-align: center;
-            padding: 10px;
-        }
-
-        .Years_section {
-            width: 100%;
-            background-color: lightgreen;
-            text-align: center;
-            padding: 20px;
-        }
-
-        .Claim_section {
-            width: 100%;
-            background-color: antiquewhite;
-            text-align: center;
-            padding: 20px;
-        }
-
-        .Biography_section {
-            background-color: lightskyblue;
-            padding: 20px;
-        }
-
-        .logo1 {
-            color: rgb(201, 11, 11);
-            font-weight: 800;
-            font-size: 3em;
-            text-shadow: 3px 5px 6px rgb(101, 1, 1);
-        }
-
-        .logo2 {
-            color: rgb(2, 110, 4);
-            font-weight: 500;
-            font-size: 2em;
-            text-shadow: 3px 5px 6px rgb(101, 1, 1);
-        }
-
-        .photo {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .Years, .Claim {
-            font-size: xx-large;
-        }
-
-        .PagesName {
-            color: rgb(121, 119, 113);
-            font-size: large;
-        }
-
-        .Pages {
-            list-style: none;
-            padding: 0;
-        }
-        
-        a {
-            text-decoration: none;
-            color: inherit;
-        }
-    </style>
+    <title>Лабораторна робота 1</title>
+    
+    <link rel="stylesheet" href="Grid/style.css">
 </head>
 <body>
-    <table class="main_container" cellspacing="0" cellpadding="0">
-        <tr>
-            <!-- Menu section-->
-            <td colspan="4" class="Menu">
-                <table class="TextMenu">
-                    <tr>
-                        <td>
-                            <h1 class="logo1">Tudors</h1>
-                        </td>
-                        <td class="links">
-                            <p class="PagesName"> 
-                               Menu
-                               <ul class="Pages">
-                                   <li><a href="grid.html">Grid</a></li>
-                                   <li><a href="index.html">FlexBox</a></li>
-                                </ul>
-                             </p>
-                         </td>
-                   </tr>
-                </table>
-            </td>
-        </tr>
-        <tr>
-            <!-- Achievements section -->
-            <td class="Achievements">
-                <ol class="ListOfAchievements">
-                    <li>Зміцнив бюджет Англії</li>
-                    <li>Заснував суд над дворянами</li>
-                    <li>Підтримав експедицію, що відкрила острів Ньюфаундленд біля Америки</li>
-                    <li>Надав наказ відомому історику - Полідору Вергілію писати записи історії Англії</li>
-                </ol>
-            </td>
-            <td>
-                <table class="Square" cellspacing="0" cellpadding="0">
-                    <tr>
-                        <!-- Portrait section -->
-                        <td class="Portrait" colspan="2">
-                            <img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Henry_Seven_England.jpg" alt="Henry_Seven">
-                        </td>
-                        <td class="right_bar_td"  style="width: 100%;" cellspacing="0" cellpadding="0" >
-                            <table class="right_bar"  cellspacing="0" cellpadding="0">
-                                <tr>
-                                    <!-- Years section -->
-                                    <td class="Years_section" style="width: 100%;">
-                                        <b class="Years">1485-1509</b>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <!-- Claim section -->
-                                    <td class="Claim_section" style="width: 100%;">
-                                        <b class="Claim">Henry VII</b>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Biography section -->
-                        <td class="Biography_section" colspan="3">
-                            <table>
-                                <tr>
-                                    <td><h2 class="logo2">DYNASTY</h2></td>                                
-                                    <td><p class="Biography">Провів юнацькі роки в Бретані, у 1485 висадився в Британії, щоб очолити повстання проти Річарда ІІІ, що завершилося поразкою Річарда і його смертю біля Босворта. Одружившись з Єлизаветою Йоркською у 1486, об'єднав двори Йорків і Ланкастерів. У 1497 відбулося повстання йоркців, але Генріх відновив порядок після воєн Червоної і Білої троянди і отримав незалежність від парламенту, заклав основи абсолютизму. Його наступником став син Генріх VIII.</p></td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+   <div class="main_container">
+    <!-- Menu section-->
+     <div class="Menu">
+            <h1 class="logo1">Tudors</h1>
+            <div class="PagesName"> 
+                <p>Menu</p>
+            </div>
+     </div>
+
+     <!-- Achievements section-->
+    <div class="Achievements">
+         <ol class="ListOfAchievements">
+            <li>Зміцнив бюджет Англії</li>
+            <li>Заснував суд над дворянами</li>
+            <li>Підтримав експедицію, що відкрила острів Ньюфаундленд біля Америки</li>
+            <li> Надав наказ відомому історику - Полідору Вергілію писати записи історії Англії</li>
+        </ol>
+     </div>
+
+     <!-- Portrait section-->
+     <div class="Portrait">
+        <img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Henry_Seven_England.jpg" alt="Henry_Seven" style="height: 100%"  usemap="#henryMap">
+        <map name="henryMap">
+            <area shape="rect" coords="0,0,935,1288" alt="Генріх VII" title="Генріх VII">
+        </map>
+    </div>
+
+    <!-- Years_section-->
+    <div class="Years_section">
+      <b class="b">1485-1509</b>
+    </div>
+
+    <!--Claim section-->
+    <div class="Claim_section">
+        <b class="b">Henry VII</b>
+    </div>
+
+    <!-- Biography section-->
+    <div class="Biography_section">
+        <h2 class="logo2"> DYNASTY</h2>
+        <p class="Biography">Провів юнацькі роки в Бретані, у 1485 висадився в Британії, щоб очолити повстання проти Річарда ІІІ, що завершилося поразкою Річарда і його смертю біля Босворта. Одружившись з Єлизаветою Йоркською у 1486, об'єднав двори Йорків і Ланкастерів. У 1497 відбулося повстання йоркців, але Генріх відновив порядок після воєн Червоної і Білої троянди і отримав незалежність від парламенту, заклав основи абсолютизму. Його наступником став син Генріх VIII.</p>
+    </div>
+    </div>
 </body>
 </html>
